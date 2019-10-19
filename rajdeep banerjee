@@ -1,0 +1,6 @@
+int c=0; 
+char ch;
+for(int i=1;i<l;i++) { ch=n.charAt(i); //extracting each digit and checking whether it is a ‘0’ or not if(ch==’0′) c++; } char f=n.charAt(0); //taking out the first digit of the inputted number if(c>0 && f!=’0′)
+System.out.println(“It is a duck number”);
+else
+System.out.println(“It is not a duck number”);

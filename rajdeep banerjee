@@ -1,3 +1,4 @@
+int n;
 int c=0; 
 char ch;
 for(int i=1;i<l;i++)
